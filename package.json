@@ -1,13 +1,22 @@
 {
   "name": "recats-classic-dark",
   "displayName": "Recats Classic Dark",
-  "description": "classic dark theme from @recats",
+  "description": "classic dark theme powered by @recats",
   "publisher": "senelway",
+  "author": {
+    "name":"@recats",
+    "url": "https://github.com/recats"
+  },
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.70.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recats/vscode-theme"
+  },
+  "icon": "images/recats.jpg",
   "categories": [
     "Themes"
   ],
