@@ -72,7 +72,7 @@
     "editor.selectionHighlightBackground": "#434c5e66",
     "editor.rangeHighlightBackground": "#434c5e52",
     "editor.wordHighlightBackground": "#00030273",
-    "editor.wordHighlightStrongBackground": "#81a1c199",
+    "editor.wordHighlightStrongBackground": "#0044ff4d",
     "editor.stackFrameHighlightBackground": "#5e81ac",
     "editor.focusedStackFrameHighlightBackground": "#5e81ac",
     "editorError.foreground": "#bf616a",
