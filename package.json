@@ -1,0 +1,25 @@
+{
+  "name": "recats-classic-dark",
+  "displayName": "Recats Classic Dark",
+  "description": "classic dark theme from @recats",
+  "license": "MIT",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Recats Classic Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/recats-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.17.0"
+  }
+}
