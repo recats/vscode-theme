@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "recats-classic-dark" extension will be documented in this file.
+### 0.0.6
+- Fixed editor hover widget background color
+- Add more suitable box-shadow into popups
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+### 0.0.5
+- New logo
+- Fixed border colors in sidebar, editGroup, etc...

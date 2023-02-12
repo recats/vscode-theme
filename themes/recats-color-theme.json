@@ -3,6 +3,10 @@
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
+    // #48caf6
+    // #61c5e6 
+    // #242931
+
 		"editorCursor.background": "#000000",
 		"editorCursor.foreground": "#48caf6",
 
@@ -23,7 +27,7 @@
     "button.secondaryBackground": "#434c5e",
     "button.secondaryForeground": "#dadcdd",
     "button.secondaryHoverBackground": "#4c566a",
-    "charts.red": "#bf616a",
+    "charts.red": "#ce606b",
     "charts.blue": "#81a1c1",
     "charts.yellow": "#ebcb8b",
     "charts.orange": "#d08770",
@@ -100,7 +104,7 @@
     "editorGutter.modifiedBackground": "#ebcb8b",
     "editorGutter.addedBackground": "#a3be8c",
     "editorGutter.deletedBackground": "#bf616a",
-    "editorHoverWidget.background": "#242931",
+    "editorHoverWidget.background": "#0a161a",
     "editorHoverWidget.border": "#242931",
     "editorLink.activeForeground": "#61c5e6",
     "editorMarkerNavigation.background": "#5e81acc0",
@@ -311,7 +315,7 @@
     "walkThrough.embeddedEditorBackground": "#242931",
     "welcomePage.buttonBackground": "#434c5e",
     "welcomePage.buttonHoverBackground": "#4c566a",
-    "widget.shadow": "#00000066"
+    "widget.shadow": "#61c5e6"
   },
   "tokenColors": [
     {
