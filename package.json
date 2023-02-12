@@ -8,9 +8,9 @@
     "url": "https://github.com/recats"
   },
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.65.0"
   },
   "repository": {
     "type": "git",
