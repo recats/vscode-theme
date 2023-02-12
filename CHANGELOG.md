@@ -1,5 +1,8 @@
 # Change Log
 
+### 0.0.8
+- Fixed input, select, checkbox, peekView, etc style
+
 ### 0.0.7
 - New red color
 - New shadow
