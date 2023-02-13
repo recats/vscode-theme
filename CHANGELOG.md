@@ -1,7 +1,7 @@
 # Change Log
 
 ### 0.0.9
-- Added new color scheme "Recats Nova Dark"
+- Added new color theme "Recats Nova Dark"
 - Added selectionHighlightBorder 
 - Updated border color
 
