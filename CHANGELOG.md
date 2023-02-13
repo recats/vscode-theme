@@ -1,5 +1,9 @@
 # Change Log
 
+### 0.0.10
+- Fixed active tab color
+- Set darker bg color in 'classic' theme
+
 ### 0.0.9
 - Added new color theme "Recats Nova Dark"
 - Added selectionHighlightBorder 
