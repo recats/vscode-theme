@@ -1,5 +1,10 @@
 # Change Log
 
+### 0.0.9
+- Added new color scheme "Recats Nova Dark"
+- Added selectionHighlightBorder 
+- Updated border color
+
 ### 0.0.8
 - Fixed input, select, checkbox, peekView, etc style
 

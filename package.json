@@ -1,14 +1,14 @@
 {
   "name": "recats-classic-dark",
-  "displayName": "Recats Classic Dark",
-  "description": "classic dark theme powered by @recats",
+  "displayName": "Recats Theme",
+  "description": "dark theme powered by @recats",
   "publisher": "senelway",
   "author": {
     "name":"@recats",
     "url": "https://github.com/recats"
   },
   "license": "MIT",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -25,7 +25,12 @@
       {
         "label": "Recats Classic Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/recats-color-theme.json"
+        "path": "./themes/recats-classic-dark.json"
+      },
+      {
+        "label": "Recats Nova Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/recats-nova-dark.json"
       }
     ]
   },
