@@ -1,5 +1,10 @@
 # Change Log
 
+### 0.0.11
+- Removed widget shadow
+- Updated caret color
+- Added border color in widget
+
 ### 0.0.10
 - Fixed active tab color
 - Set darker bg color in 'classic' theme
@@ -23,5 +28,4 @@
 - Added more suitable box-shadow into popups
 
 ### 0.0.5
-- New logo
 - Fixed border colors in sidebar, editGroup, etc...
