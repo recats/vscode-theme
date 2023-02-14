@@ -1,7 +1,3 @@
-<img width="128" alt="recats-theme" src="https://user-images.githubusercontent.com/9702154/218539250-be5dc02e-cd28-4be4-85fc-d72ac94e035f.png">
-
-
-
 # Recats Classic
 <img width="1514" alt="recats-classic" src="https://user-images.githubusercontent.com/9702154/218418049-b9f6cedb-09ee-40b7-8bb0-cdf91a38eb65.png">
 

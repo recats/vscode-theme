@@ -3,9 +3,8 @@
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
-		"editorCursor.background": "#000000",
-		"editorCursor.foreground": "#48caf6",
-
+    "editorCursor.background": "#000000",
+    "editorCursor.foreground": "#00fff7",
     "focusBorder": "#14161e",
     "foreground": "#f2f4f4",
     "activityBar.background": "#14161e",
@@ -72,7 +71,7 @@
     "editor.selectionHighlightBackground": "#434c5e66",
     "editor.selectionHighlightBorder": "#ffffff18",
     "editor.rangeHighlightBackground": "#434c5e52",
-    "editor.wordHighlightBackground": "#00030273",
+    "editor.wordHighlightBackground": "#61c5e646",
     "editor.wordHighlightStrongBackground": "#0044ff4d",
     "editor.stackFrameHighlightBackground": "#5e81ac",
     "editor.focusedStackFrameHighlightBackground": "#5e81ac",
@@ -189,7 +188,6 @@
     "minimapSlider.activeBackground": "#434c5eaa",
     "minimapSlider.background": "#434c5e99",
     "minimapSlider.hoverBackground": "#434c5eaa",
-
     "notification.background": "#14161e",
     "notification.buttonBackground": "#434c5e",
     "notification.buttonForeground": "#f2f4f4",
@@ -201,7 +199,6 @@
     "notification.infoForeground": "#14161e",
     "notification.warningBackground": "#ebcb8b",
     "notification.warningForeground": "#14161e",
-
     "notificationCenter.border": "#14161e00",
     "notificationCenterHeader.background": "#14161e",
     "notificationCenterHeader.foreground": "#61c5e6",
@@ -210,7 +207,6 @@
     "notifications.border": "#14161e",
     "notifications.foreground": "#f2f4f4",
     "notificationToast.border": "#14161e00",
-
     "panel.background": "#14161e",
     "panel.border": "#ffffff18",
     "panelTitle.activeBorder": "#61c5e600",
@@ -272,7 +268,7 @@
     "tab.unfocusedInactiveForeground": "#f2f4f466",
     "tab.hoverBackground": "#14161ecc",
     "tab.unfocusedHoverBackground": "#14161eb3",
-    "tab.hoverBorder": "#61c5e600",
+    "tab.hoverBorder": "#fff",
     "tab.unfocusedHoverBorder": "#61c5e600",
     "tab.activeBorderTop": "#61c5e600",
     "tab.unfocusedActiveBorderTop": "#61c5e600",
@@ -312,7 +308,8 @@
     "walkThrough.embeddedEditorBackground": "#14161e",
     "welcomePage.buttonBackground": "#434c5e",
     "welcomePage.buttonHoverBackground": "#4c566a",
-    "widget.shadow": "#61c5e638"
+    "widget.shadow": "#14161e",
+    "widget.border": "#61c5e6"
   },
   "tokenColors": [
     {
@@ -377,7 +374,10 @@
     },
     {
       "name": "Entity Name Class/Type",
-      "scope": ["entity.name.class", "entity.name.type.class"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class"
+      ],
       "settings": {
         "foreground": "#a7aae0"
       }
@@ -528,7 +528,10 @@
     },
     {
       "name": "Punctuation Section Embedded",
-      "scope": ["punctuation.section.embedded.begin", "punctuation.section.embedded.end"],
+      "scope": [
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
       "settings": {
         "foreground": "#77b1eb"
       }
@@ -668,7 +671,10 @@
     },
     {
       "name": "[C/CPP] Meta Preprocessor Include",
-      "scope": ["source.c meta.preprocessor.include", "source.c string.quoted.other.lt-gt.include"],
+      "scope": [
+        "source.c meta.preprocessor.include",
+        "source.c string.quoted.other.lt-gt.include"
+      ],
       "settings": {
         "foreground": "#a7aae0"
       }
@@ -826,7 +832,10 @@
     },
     {
       "name": "[Java](JavaDoc) Keyword Other Documentation Directive/Custom",
-      "scope": ["source.java keyword.other.documentation.directive", "source.java keyword.other.documentation.custom"],
+      "scope": [
+        "source.java keyword.other.documentation.directive",
+        "source.java keyword.other.documentation.custom"
+      ],
       "settings": {
         "foreground": "#a7aae0"
       }
@@ -847,7 +856,10 @@
     },
     {
       "name": "[Java](JavaDoc) Meta Tag Template Link",
-      "scope": ["source.java meta.tag.template.link.javadoc", "source.java string.other.link.title.javadoc"],
+      "scope": [
+        "source.java meta.tag.template.link.javadoc",
+        "source.java string.other.link.title.javadoc"
+      ],
       "settings": {
         "foreground": "#a7aae0"
       }
@@ -1178,14 +1190,20 @@
     },
     {
       "name": "[PHP] Meta Function-Call Object",
-      "scope": ["source.php meta.function-call", "source.php meta.function-call.object"],
+      "scope": [
+        "source.php meta.function-call",
+        "source.php meta.function-call.object"
+      ],
       "settings": {
         "foreground": "#61c5e6"
       }
     },
     {
       "name": "[Python] Decorator",
-      "scope": ["source.python entity.name.function.decorator", "source.python meta.function.decorator support.type"],
+      "scope": [
+        "source.python entity.name.function.decorator",
+        "source.python meta.function.decorator support.type"
+      ],
       "settings": {
         "foreground": "#D08770"
       }
@@ -1206,14 +1224,18 @@
     },
     {
       "name": "[Python] Function Parameter",
-      "scope": ["source.python variable.parameter.function.language"],
+      "scope": [
+        "source.python variable.parameter.function.language"
+      ],
       "settings": {
         "foreground": "#f2f4f4"
       }
     },
     {
       "name": "[Python] Function Parameter Special",
-      "scope": ["source.python meta.function.parameters variable.parameter.function.language.special.self"],
+      "scope": [
+        "source.python meta.function.parameters variable.parameter.function.language.special.self"
+      ],
       "settings": {
         "foreground": "#77b1eb"
       }
@@ -1292,7 +1314,10 @@
     },
     {
       "name": "[TypeScript] Object-literal keys",
-      "scope": ["source.ts meta.object-literal.key", "source.tsx meta.object-literal.key"],
+      "scope": [
+        "source.ts meta.object-literal.key",
+        "source.tsx meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#f2f4f4"
       }
@@ -1339,7 +1364,10 @@
     },
     {
       "name": "[TypeScript] Variables",
-      "scope": ["source.ts support.variable", "source.tsx support.variable"],
+      "scope": [
+        "source.ts support.variable",
+        "source.tsx support.variable"
+      ],
       "settings": {
         "foreground": "#f2f4f4"
       }
@@ -1379,7 +1407,10 @@
     },
     {
       "name": "[XML] Entity Name Tag Namespace",
-      "scope": ["text.xml string.unquoted.cdata", "text.xml string.unquoted.cdata punctuation.definition.string"],
+      "scope": [
+        "text.xml string.unquoted.cdata",
+        "text.xml string.unquoted.cdata punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#D08770",
         "fontStyle": "italic"
